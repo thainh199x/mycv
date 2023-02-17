@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #1569c7;
+  font-weight: 500;
+}
+
+p,
+span,
+a,
+li {
+  color: #3f3f3f;
+  font-size: large;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col2 {
+  align-self: start;
+}
+
+.title {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.title p {
+  border: 1px solid #7f7f7f;
+  width: 100%;
+  height: 0;
+  margin-top: 0.5rem;
+}
+
+.avatar {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.avatar img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 7.5rem;
+}
+
+.small-container {
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-left: 1rem;
+  padding: 0.3rem 0;
+}
+
+/* personal information */
+.personnal-detail {
+  padding: 0.3rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  margin-right: 0.5rem;
+  color: #1569c7;
+}
+
+/* career goals  */
+
+/* skills */
+.skills span {
+  width: 3rem;
+  height: 5px;
+  background-color: #1569c7;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.skill1 span:last-child,
+.skill2 span:last-child {
+  background-color: #7f7f7f;
+}
+
+.skill3 span:nth-child(5),
+.skill3 span:nth-child(6) {
+  background-color: #7f7f7f;
+}
+
+.skill4 span:nth-child(4),
+.skill4 span:nth-child(5),
+.skill4 span:nth-child(6) {
+  background-color: #7f7f7f;
+}
+
+.skill5 span:nth-child(5),
+.skill5 span:nth-child(6) {
+  background-color: #7f7f7f;
+}
+
+.skill6 span:nth-child(5),
+.skill6 span:nth-child(6) {
+  background-color: #7f7f7f;
+}
+
+/* certificates  */
+.certificates img {
+  width: 100%;
+  height: 14rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.change-language {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.change-language a {
+  padding: 0.5rem 1rem;
+  background-color: #dadada;
+  border-radius: 0.3rem;
+  box-shadow: #acacac 5px 5px 10px 0;
+}
+.japanese-type {
+  letter-spacing: -1px;
+  font-size: x-large;
+}
