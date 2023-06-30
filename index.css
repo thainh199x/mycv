@@ -97,28 +97,26 @@ i {
 }
 
 .skill1 span:last-child,
-.skill2 span:last-child {
+.skill2 span:last-child,
+.skill8 span:last-child,
+.skill9 span:last-child {
   background-color: #7f7f7f;
 }
 
 .skill3 span:nth-child(5),
-.skill3 span:nth-child(6) {
+.skill5 span:nth-child(5),
+.skill6 span:nth-child(5),
+.skill7 span:nth-child(5),
+.skill3 span:nth-child(6),
+.skill5 span:nth-child(6),
+.skill6 span:nth-child(6),
+.skill7 span:nth-child(6) {
   background-color: #7f7f7f;
 }
 
 .skill4 span:nth-child(4),
 .skill4 span:nth-child(5),
 .skill4 span:nth-child(6) {
-  background-color: #7f7f7f;
-}
-
-.skill5 span:nth-child(5),
-.skill5 span:nth-child(6) {
-  background-color: #7f7f7f;
-}
-
-.skill6 span:nth-child(5),
-.skill6 span:nth-child(6) {
   background-color: #7f7f7f;
 }
 
